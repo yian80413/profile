@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap');
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  line-height: 32px
+}
+
+body {
+background-color: #ecf4ff;
+color: #575f7d;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.485);
+  text-align: center;
+  margin: 45px -80px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding: 40px;
+  border-radius: 5px;
+}
+
+#image-circle{
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+i {
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+a:hover {
+ color: rgba(67, 17, 203, 0.978);
+ text-decoration: none;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
